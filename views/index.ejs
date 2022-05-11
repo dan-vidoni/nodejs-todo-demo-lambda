@@ -9,7 +9,7 @@
 <div class="container">
 <h2> A Simple ToDo List App </h2>
 
-<form action ="/addtask" method="POST">
+<form action ="dev/addtask" method="POST">
 
 <input type="text" name="newtask" placeholder="add new task">
 <button> Add Task </button>
@@ -21,7 +21,7 @@
     <li><input type="checkbox" name="check" value="<%= task[i] %>" /> <%= task[i] %> </li>
 <% } %>
 
-<button formaction="/removetask" type="submit" id="top"> Remove </button>
+<button formaction="dev/removetask" type="submit" id="top"> Remove </button>
 </form>
 
 <h2> Completed task </h2>
